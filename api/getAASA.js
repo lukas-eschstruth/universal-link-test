@@ -6,6 +6,10 @@ module.exports = (req, res) => {
             "details": [{
                 "appID": "D7NB5S99CU.de.sharea.app",
                 "paths": ["*", "/"]
+            },
+            {
+                "appID": "D7NB5S99CU.org.nativescript.nativescript7",
+                "paths": ["*", "/"]
             }]
         }
     });
