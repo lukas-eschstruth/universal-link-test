@@ -1,7 +1,7 @@
 {
     "headers": [
         {
-            "source": "/.well-known/*",
+            "source": "/.well-known/apple-app-site-association",
             "headers": [
                 {
                     "key": "Content-Type",
