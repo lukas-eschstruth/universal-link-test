@@ -1,15 +1,9 @@
 {
     "applinks": {
-        "details": [{
-            "appIDs": ["D7NB5S99CU.de.sharea.app"],
-            "components": [{
-                "/": "*",
-                "comment": "Matches any URL"
-            }, {
-                "/": "/"
-            }, {
-                "/": "/*"
-            }]
+    "apps": [],
+    "details": [{
+        "appID": "D7NB5S99CU.de.sharea.app",
+        "paths": ["*", "/"]
         }]
     }
 }
