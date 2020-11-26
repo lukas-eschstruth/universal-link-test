@@ -1,5 +1,5 @@
 module.exports = (req, res) => {
-    console.log('[get apple-app-site-association]', req);
+    console.log(req.ip, req.headers);
     res.json({
         "applinks": {
             "apps": [],
